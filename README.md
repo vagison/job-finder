@@ -5,7 +5,7 @@ Simply subscribe to relevant categories and let the bot do the rest.
 More platform integrations coming soon!
 
 # Pre-installation Setup
-1. Create a Telegram Bot via the Telegram app, following the instructions provided in the video link: https://youtu.be/aNmRNjME6mE. Obtain the token necessary for integration with the application. The obtained token should be placed in the .env file under the variable `TELEGRAM_BOT_API_TOKEN`.
+1. Create a Telegram bot via the Telegram app, following the instructions provided in the video link: https://youtu.be/aNmRNjME6mE. Obtain the token necessary for integration with the application. The obtained token should be placed in the .env file under the variable `TELEGRAM_BOT_API_TOKEN`.
 2. Create a MongoDB cluster to serve as the database. In the .env file, assign the variables listed in .env.dist with your credentials.
 
 # Installation
@@ -33,15 +33,15 @@ Create a .env file in the root of the project and configure the environment vari
 # Application structure description
 The application code is located under the 'src' directory.
 
-app.js is the entry point of the app. It initiates the DB and Telegram Bot connections and schedules the tasks:
+app.js is the entry point of the app. It initiates the DB and the Telegram bot connections and schedules the tasks:
 
 The directory structure of the project is self explanatory. Here's a brief introduction to it:
-* Configs: Contains all configurations required for DB and Telegram Bot connections.
+* Configs: Contains all configurations required for DB and the Telegram bot connections.
 * Constants: Holds some hardcoded values, including error messages.
 * Models: Defines the schemas for defined entities.
 * Providers: Includes the functionality to manipulate entities and data.
 * Schedule: Contains functionality for scheduling and executing tasks using node-schedule and related modules.
-* Services: Encompasses Telegram Bot service and various websites related logic responsible for specific business logic and functionalities.
+* Services: Encompasses the Telegram bot service and various websites related logic responsible for specific business logic and functionalities.
 * Shared: Includes logic that is shared among multiple services, entities or other conceptual components, promoting code reuse and maintainability within the project.
 * Utils: Serves as a directory to store helper functions, validating schemas and error handling functionality as well as database initializing logic.
 
@@ -54,7 +54,7 @@ There are some files in the root directory apart from 'src' directory:
 
 
 # Usage
-Once the Telegram Bot is created and the application is running, you can access it through the Telegram application.
-Simply type /start in the chat with your Telegram Bot and you will receive further instructions on how to register queries, retrieve them or obtain jobs for saved queries.
+Once the Telegram bot is created and the application is running, you can access it through the Telegram application.
+Simply type /start in the chat with your Telegram bot and you will receive further instructions on how to register queries, retrieve them or obtain jobs for saved queries.
 After registering a query, you will receive job batches for each of them every 5 minutes.
 You can also modify the code to adjust the frequency of CRON jobs as needed.
