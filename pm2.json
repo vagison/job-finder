@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "job-finder",
+      "script": "./dist/app.js",
+      "watch": true,
+      "ignore_watch": [
+        "tests",
+        "node_modules"
+      ],
+      "watch_options": {
+        "followSymlinks": false
+      }
+    }
+  ]
+}
