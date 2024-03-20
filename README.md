@@ -5,8 +5,7 @@ Simply subscribe to relevant categories and let the bot do the rest.
 More platform integrations coming soon!
 
 # Pre-installation Setup
-1. Create a Telegram Bot via the Telegram app, following the instructions provided in the video link. Obtain the token necessary for integration with the application. The obtained token should be placed in the .env file under the variable TELEGRAM_BOT_API_TOKEN.
-Link to the video: ```https://youtu.be/aNmRNjME6mE```
+1. Create a Telegram Bot via the Telegram app, following the instructions provided in the video link: https://youtu.be/aNmRNjME6mE. Obtain the token necessary for integration with the application. The obtained token should be placed in the .env file under the variable `TELEGRAM_BOT_API_TOKEN`.
 2. Create a MongoDB cluster to serve as the database. In the .env file, assign the variables listed in .env.dist with your credentials.
 
 # Installation
