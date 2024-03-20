@@ -1,7 +1,7 @@
 {
-  "name": "freelance-jobs-telegram-bot",
+  "name": "job-finder-telegram-bot",
   "version": "1.0.0",
-  "description": "A project to track job openings from various websites",
+  "description": "The application aims to facilitate the tracking of job openings across multiple websites.",
   "main": "app.js",
   "engines": {
     "node": "16.X"
@@ -13,8 +13,16 @@
     "clean": "rm -rf dist"
   },
   "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagison/job-finder.git"
+  },
+  "author": "Roman-Vahram Margaryan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vagison/job-finder/issues"
+  },
+  "homepage": "https://github.com/vagison/job-finder#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",

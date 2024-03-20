@@ -14,6 +14,8 @@ To install the application, follow these steps:
 2. Navigate to the project directory: ```cd job-finder```
 3. Install the dependencies: ```npm i```
 
+Please note that the application has been tested on Node.js version 16, and it is recommended to use this version or above for optimal compatibility and performance.
+
 # Running
 To run the application, follow these steps:
 1. To start the compiled application located in the 'dist' directory using Node you have to run the following commands:
