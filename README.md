@@ -1,9 +1,11 @@
+# Overview
 This Telegram bot application collects, processes and sends job openings from diverse online platforms, starting with Upwork integration.  
 Receive real-time updates on job opportunities straight to your Telegram inbox by simply subscribing to platforms and letting the bot do the rest.  
 More platform integrations coming soon!
 
 # Pre-installation Setup
-1. Create a Telegram bot via the Telegram app, following the instructions provided in the video link: https://youtu.be/aNmRNjME6mE. Obtain the token necessary for integration with the application. The obtained token should be placed in the .env file under the variable `TELEGRAM_BOT_API_TOKEN`.
+1. Create a Telegram bot via the Telegram app, following the instructions provided in the video link: https://youtu.be/aNmRNjME6mE.  
+Obtain the token necessary for integration with the application. The obtained token should be placed in the .env file under the variable `TELEGRAM_BOT_API_TOKEN`.
 2. Create a MongoDB cluster to serve as the database. In the .env file, assign the variables listed in .env.dist with your credentials.
 
 # Installation
@@ -12,7 +14,7 @@ To install the application, follow these steps:
 2. Navigate to the project directory: ```cd job-finder```
 3. Install the dependencies: ```npm i```
 
-Please note that the application has been tested on Node.js version 16.20.1, and it is recommended to use this version or above for optimal compatibility and performance.
+Please note that the application has been tested on Node.js version 16.20.1 and it is recommended to use this version or above for optimal compatibility and performance.
 
 # Running
 To run the application, follow these steps:
