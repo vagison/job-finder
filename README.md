@@ -1,7 +1,5 @@
-This Telegram bot application sends job openings from diverse online platforms, starting with Upwork integration.
-Receive real-time updates on job opportunities straight to your Telegram inbox.
-Stay ahead in your job search effortlessly.
-Simply subscribe to relevant categories and let the bot do the rest.
+This Telegram bot application collects, processes and sends job openings from diverse online platforms, starting with Upwork integration.  
+Receive real-time updates on job opportunities straight to your Telegram inbox by simply subscribing to platforms and letting the bot do the rest.  
 More platform integrations coming soon!
 
 # Pre-installation Setup
