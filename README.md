@@ -52,7 +52,7 @@ There are some files in the root directory apart from 'src' directory:
 
 
 # Usage
-Once the Telegram bot is created and the application is running, you can access it through the Telegram application.
-Simply type /start in the chat with your Telegram bot and you will receive further instructions on how to register queries, retrieve them or obtain jobs for saved queries.
-After registering a query, you will receive job batches for each of them every 5 minutes.
-You can also modify the code to adjust the frequency of CRON jobs as needed.
+Once the Telegram bot is created and the application is running, you can access it through the Telegram application.  
+Simply type /start in the chat with your Telegram bot and you will receive further instructions on how to register queries, retrieve them or obtain jobs for saved queries.  
+After registering a query, you will receive job batches for each of them every 5 minutes.  
+You can also modify the code to adjust the frequency of CRON jobs as needed.  
